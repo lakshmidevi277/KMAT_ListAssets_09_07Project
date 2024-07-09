@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/lakshmidevi277/KMAT_ListAssets_09_07Project
   gitUsername: lakshmidevi277
   gitBranch: main
+- name: SalesforceRestTest1011
+  gitServerName: Lakshmi
+  gitUrl: https://github.com/lakshmidevi277
+  gitUsername: lakshmidevi277
+  gitBranch: main
