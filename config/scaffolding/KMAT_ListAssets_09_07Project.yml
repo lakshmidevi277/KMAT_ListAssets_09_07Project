@@ -47,3 +47,8 @@ packages:
   gitUrl: https://github.com/lakshmidevi277
   gitUsername: lakshmidevi277
   gitBranch: main
+- name: TestAWSS3Connr
+  gitServerName: Lakshmi
+  gitUrl: https://github.com/lakshmidevi277
+  gitUsername: lakshmidevi277
+  gitBranch: main
