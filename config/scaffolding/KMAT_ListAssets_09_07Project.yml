@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: KMAT_ListAssets_09_07Project
+  gitServerName: Lakshmi
+  gitUrl: https://github.com/lakshmidevi277/KMAT_ListAssets_09_07Project
+  gitUsername: lakshmidevi277
+  gitBranch: main
