@@ -32,3 +32,8 @@ packages:
   gitUrl: https://github.com/karthikbm
   gitUsername: karthikbm
   gitBranch: main
+- name: TestWorkdayConnector
+  gitServerName: karthik
+  gitUrl: https://github.com/karthikbm
+  gitUsername: karthikbm
+  gitBranch: main
