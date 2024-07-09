@@ -9,17 +9,18 @@
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="SalesforceRestTest1011">1.0</value>
+    <value name="SalesforceSoapTest1011">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">3</value>
+  <value name="build">4</value>
   <null name="description"/>
   <value name="created_date">09-07-2024 09:53:18 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2024-07-09T09:58:19.868190084Z</value>
+  <value name="lastUpdated">2024-07-09T09:58:44.546421141Z</value>
   <value name="wmProjectId">fl4e44906c45b4804adf1dc7</value>
   <value name="creator">karthik matha</value>
 </Values>
