@@ -27,3 +27,8 @@ packages:
   gitUrl: https://github.com/lakshmidevi277
   gitUsername: lakshmidevi277
   gitBranch: main
+- name: SalesforceSOAP_KMAT_Jul2024
+  gitServerName: karthik
+  gitUrl: https://github.com/karthikbm
+  gitUsername: karthikbm
+  gitBranch: main
