@@ -8,47 +8,91 @@ packages:
   gitUsername: lakshmidevi277
   gitBranch: main
 - name: SalesforceRestTest1011
+  version: "1.0"
   gitServerName: Lakshmi
   gitUrl: https://github.com/lakshmidevi277
   gitUsername: lakshmidevi277
   gitBranch: main
 - name: SalesforceSoapTest1011
+  version: "1.0"
   gitServerName: Lakshmi
   gitUrl: https://github.com/lakshmidevi277
   gitUsername: lakshmidevi277
   gitBranch: main
 - name: SalesforceSoapTest1015
+  version: "1.0"
   gitServerName: Lakshmi
   gitUrl: https://github.com/lakshmidevi277
   gitUsername: lakshmidevi277
   gitBranch: main
 - name: SalesforceRestTest1015
+  version: "1.0"
   gitServerName: Lakshmi
   gitUrl: https://github.com/lakshmidevi277
   gitUsername: lakshmidevi277
   gitBranch: main
 - name: SalesforceSOAP_KMAT_Jul2024
+  version: "1.0"
   gitServerName: karthik
   gitUrl: https://github.com/karthikbm
   gitUsername: karthikbm
   gitBranch: main
 - name: TestWorkdayConnector
+  version: "1.0"
   gitServerName: karthik
   gitUrl: https://github.com/karthikbm
   gitUsername: karthikbm
   gitBranch: main
 - name: TestSalesforceSoapConnector
+  version: "1.0"
   gitServerName: Lakshmi
   gitUrl: https://github.com/lakshmidevi277
   gitUsername: lakshmidevi277
   gitBranch: main
 - name: TestSalesforceRestConnector
+  version: "1.0"
   gitServerName: Lakshmi
   gitUrl: https://github.com/lakshmidevi277
   gitUsername: lakshmidevi277
   gitBranch: main
 - name: TestAWSS3Connr
+  version: "1.0"
   gitServerName: Lakshmi
   gitUrl: https://github.com/lakshmidevi277
   gitUsername: lakshmidevi277
   gitBranch: main
+services:
+- serviceName: project.kmat_listassets_09_07.integrations:test1
+  packages:
+  - name: KMAT_ListAssets_09_07Project
+    version: "1.0"
+  - name: TestAWSS3Connr
+    version: "1.0"
+  - name: SalesforceRestTest1011
+    version: "1.0"
+  - name: TestSalesforceSoapConnector
+    version: "1.0"
+  - name: SalesforceRestTest1015
+    version: "1.0"
+  - name: TestWorkdayConnector
+    version: "1.0"
+  - name: WmWorkdayProvider
+    version: 10.7.0.0.11
+  - name: WmSalesforceProvider
+    version: 10.7.0.0.53
+  - name: SalesforceSOAP_KMAT_Jul2024
+    version: "1.0"
+  - name: TestSalesforceRestConnector
+    version: "1.0"
+  - name: SalesforceSoapTest1015
+    version: "1.0"
+  - name: WmAmazonS3Provider
+    version: 10.7.0.0.9
+  - name: SalesforceSoapTest1011
+    version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 10.7.0.0.102
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.1018
